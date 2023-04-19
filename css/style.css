@@ -1,0 +1,195 @@
+*{
+    scroll-behavior: smooth;
+}
+.img-logo{
+    width: 75%;
+}
+
+.logo{
+    width: 70px;
+}
+
+#fixed{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+}
+
+nav {
+    background-color: antiquewhite;
+}
+
+.brand {
+    margin-left: 10px;
+}
+
+.btn-navbar {
+    margin: 0 10px;
+}
+
+.bienvenido {
+    background-color: rgba(231,184,135,1);
+}
+
+.img-perro {
+    height: 19rem;
+}
+
+.p-bienvenido {
+    font-size: 28px;
+    color: white;
+}
+
+.titulo-bienvenido {
+    font-size: 56px;
+    color: rgb(209, 31, 31);
+}
+/* hasta aca primera seccion*/
+.quienes-somos{
+    background-color: rgb(148, 156, 147);
+    color: white;
+    padding-top: 50px;
+}
+
+/* hasta aca segunda seccion*/
+.nuestro-staff{
+    background-color: rgba(231,184,135,1);
+}
+
+div.fondo-card{
+    background-color: rgba(231,184,135,1);
+    border: none;
+}
+/* hasta aca tercera seccion*/
+
+.productos{
+    background-color: rgb(148, 156, 147);
+    padding-top: 50px;
+}
+
+div.card-productos{
+    padding: 1rem;
+    border: 0;
+}
+
+div.card-productos img{
+    border-radius: 10px;
+}
+
+#listaObtenida{
+    border:  solid 3px black;
+    display: none;
+}
+/* hasta aca cuarta seccion*/
+
+.formulario{
+    background-color: rgba(231,184,135,1);
+}
+
+.img-gato {
+    height: 25rem;
+}
+
+div.input{
+    margin: 0rem 1rem;
+}
+
+/* hasta aca quinta seccion*/
+.primero{
+    height: 500px;
+    background-color: rgb(148, 156, 147);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.ima-maps{
+    width: fit-content;
+    height: 200px;
+}
+
+.padding{
+    padding-top: 50px;
+}
+
+.copy{
+    width: 100%;
+    background-color: rgba(231,184,135,1);
+}
+
+#listaObtenida{
+    height: 500px;
+}
+
+.boton, .boton2, .boton3, .boton4, .boton5, .boton6{
+    width: 50px;
+}
+
+.boton-mas, .boton-menos{
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-enviar-consulta{
+    margin-top: 10px;
+    background-color: rgb(202, 49, 49);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 3px rgba(0,0,0,0.2);
+}
+
+.btn-solicitar{
+    background-color: rgb(202, 49, 49);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.btn-enviar-consulta:hover{
+    box-shadow: 3px 4px rgba(0,0,0,0.3);
+    background-color: rgb(209, 31, 31);
+}
+
+.fuente{
+    
+    position:sticky;
+    top: 80px;
+    z-index: 20;
+}
+
+.resultado{
+    width: 150px;
+    background: pink;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    position: sticky;
+    
+}
+
+.mapa iframe{
+    width:100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 576px) {
+
+.div-img{
+    display: none;
+    }
+    
+.div-imga{
+    display: none;
+}
+}
